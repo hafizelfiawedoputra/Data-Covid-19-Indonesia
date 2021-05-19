@@ -1,0 +1,72 @@
+body {
+    max-height: 200vh;
+}
+
+.brand {
+    font-size: 20px;
+    float: left;
+    padding: 5px 20px 15px 15px
+}
+
+.menu {
+    float: left;
+    padding: 10px;
+}
+
+.info {
+    float: right;
+    padding: 10px
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0 0 0 0;
+    overflow: hidden;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+}
+
+#footer {
+    display: none;
+    padding-left: 10px;
+    left: 0;
+    bottom: 0;
+    position: fixed;
+}
+
+#mencari {
+    display: block;
+    text-align: center;
+    margin: 250px 0 0 0;
+    font-size: large;
+}
+
+#content {
+    height: 88vh;
+    overflow: auto;
+    display: none;
+    background-color: #737474;
+}
+
+.box {
+    margin: 20px 20px;
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.container {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 60px 0 50px;
+}
